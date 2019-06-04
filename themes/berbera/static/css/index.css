@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "europa";
+  src: url(../fonts/europa-bolditalic-webfont.ttf);
+  font-weight: bold;
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: "europa";
+  src: url(../fonts/europa-bold-webfont.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "europa";
+  src: url(../fonts/europa-regularitalic-webfont.ttf);
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: "europa";
+  src: url(../fonts/europa-regular-webfont.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.personal_photo {
+  width: 150px;
+}
+
+.name {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  width: 150px;
+  text-align: center;
+  letter-spacing: .04em;
+  padding-bottom: 15px;
+}
+
+.section {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0px;
+  padding: 6px;
+}
+
+.section:hover {
+  color: rgb(102, 102, 102);
+}
+
+.about_me {
+  color: #b45050;
+}
+
+.social_icon_bar {
+  padding-top: 20px;
+}
+
+.social_icon {
+  width: 16px;
+  padding-left: 7px; 
+}
+
+.social_icon:hover path {
+  fill: #b45050;
+
+}
+.content_box {
+  max-width: 1230px;
+  font-family: "europa", sans-serif;
+  padding: 50px;
+}
+
+
+.column {
+  float: left;
+
+}
+
+.left {
+  width: 150px;
+  padding-right: 100px;
+}
+
+.right {
+
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+  .left {
+    padding-right: 0px;
+  }
+
+}
