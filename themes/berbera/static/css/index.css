@@ -59,7 +59,7 @@
 
 .social_icon {
   width: 16px;
-  padding-left: 7px; 
+  padding-left: 7px;
 }
 
 .social_icon:hover path {
@@ -93,6 +93,7 @@
   }
   .left {
     padding-right: 0px;
+
   }
 
 }
